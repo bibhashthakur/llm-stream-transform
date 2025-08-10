@@ -1,5 +1,5 @@
 import threading, uvicorn
-from .kafka_loop import run_loop
+from .kafka_loop_batch import run_loop
 from .api import app
 
 if __name__ == "__main__":
